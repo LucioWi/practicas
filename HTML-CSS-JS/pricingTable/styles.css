@@ -20,6 +20,7 @@ body{
 }
 
 .title{
+    font-weight: 700;
     font-size: 4vh;
     margin-bottom: 1%;
 }
@@ -29,4 +30,111 @@ body{
     width: 30%;
     opacity: .6;
     text-align: center;
+}
+
+.pricing-table{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.option-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25vh
+}
+
+.option-website, .option-storage, .option-database, .option-bandwidth, .option-ssd-disk, .option-fontworld, .option-worldpress, .option-speed{
+    border-bottom: solid 1px grey;
+    padding: 10%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 25vh;
+    height: 2vh;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.option-type{
+    color: #263FA9;
+    padding: 10%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    height: 200%;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.option-time{
+    margin-bottom: 10%;
+}
+
+.option-button{
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    color: #263FA9;
+    background-color: transparent;
+    border: none;
+    font-family: "Be Vietnam Pro", serif;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.option-price{
+    font-size: 8vh;
+}
+
+.website, .storage, .database, .bandwidth, .ssd-disk, .fontworld, .worldpress, .speed{
+    border-bottom: solid 1px grey;
+    padding: 10%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 25vh;
+    height: 2vh;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: #F8FAFC;
+}
+
+.type{
+    color: #263FA9;
+    padding: 10%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    height: 200%;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.time{
+    margin-bottom: 10%;
+}
+
+.button{
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    color: #263FA9;
+    background-color: transparent;
+    border: none;
+    font-family: "Be Vietnam Pro", serif;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.price{
+    font-size: 8vh;
+}
+
+span{
+    opacity: 0;
 }
