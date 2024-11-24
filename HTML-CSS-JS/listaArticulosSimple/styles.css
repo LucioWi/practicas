@@ -1,0 +1,65 @@
+body {
+    background-color: #eeeeee;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: clamp(90%, 80%, 80%); /* clamp sirve para establecer un tamaño minimo, uno ideal y uno maximo. Esto cambia dependiendo del tamaño de pantalla del usuario*/
+    font-size: 150%;
+}
+
+h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.2;
+}
+
+.separator{
+    opacity: .2;
+    font-size: clamp(0.5rem, 2vh, 1rem);
+}
+
+.articles-container{
+    width: 90%;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+.article-img{
+    border-radius: 5%;
+    margin-right: 5%;
+    height: 15%;
+    max-width: 40%;
+}
+
+.article-info{
+    width: clamp(70%, 50%, 50%);
+}
+
+.article-title{
+    font-weight: bold;
+}
+.article-desc{
+    opacity: .7;
+}
+
+@media (max-width: 768px) {
+    .article-title {
+      font-size: 2vh; 
+    }
+    .article-desc{
+        font-size: 1.8vh
+    }
+  }
