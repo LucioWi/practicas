@@ -1,4 +1,4 @@
-Practica N°2: Tabla de suscripción.
+# Practica N°2: Tabla de suscripción.
 
 Estado de la practica: Completada.
 
@@ -11,3 +11,6 @@ CSS: flexbox y cards.
 Practicas extras: Organización de las clases.
 
 Nada de este trabajo usó IA. La idea de la practica proviene de https://devchallenges.io/editor/solution/40489 .
+
+# Screenshots:
+![Captura de pantalla 2024-12-09 203612](https://github.com/user-attachments/assets/f8e2cb65-5451-4e27-b2df-bec99c14c545)
