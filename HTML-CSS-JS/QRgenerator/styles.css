@@ -1,0 +1,59 @@
+body {
+    background-color: #111729;
+    font-family: "Outfit", serif;
+}
+
+h1 {
+    color: #3662E3;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.form-link {
+    background-color: #090325;
+    color: #364153;
+    border: 2px solid #3662E3;
+    border-radius: 2vh;
+    width: 40%;
+    flex-direction: row;
+}
+
+.form-link:hover{
+    background-color: #050116;
+}
+
+.input-url {
+    all: unset;
+    background-color: transparent;
+    border: none;
+    font-family: "Outfit", serif;
+    font-size: 2vh;
+    margin: 3%;
+    text-align: left;
+    width: 70%;
+}
+
+#submit{
+    all: unset;
+    background-color: #3662E3;
+    color: #ffffff;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: 2px solid #3662E3;
+    border-radius: 1vh;
+    cursor: pointer;
+    text-align: end;
+}
+
+#submit:hover{
+    background-color: transparent;
+    border: 2px solid #3662E3;
+    transition: .1s;
+}
