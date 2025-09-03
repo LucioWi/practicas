@@ -1,4 +1,4 @@
-# Practicas de Lucio Wiesek
+# Prácticas de Lucio Wiesek
 <p>Centrado en distintos retos cortos para mejorar mis capacidades y conocimientos en programación web.</p>
 
 <p>Por el momento esta centrado única y exclusivamente en Frontend, pero quizá agregue algo de Backend en el fúturo.</p>
